@@ -1,0 +1,28 @@
+name: RpgPlugin
+version: ${project.version}
+main: de.lulwig.lulwig.rpgplugin.Main
+api-version: 1.16
+authors: [ Lulwig ]
+description: An Rpg Plugin for PA
+commands:
+  hub:
+    aliases: [ l ]
+    description: schickt dich zum hub
+  everyhub:
+    aliases: [ el ]
+    description: schickt alle zum hub
+  giverpg:
+    aliases: [ ]
+    description: gibt dir ein item
+  level:
+    aliases: [ lvl ]
+    description: gibt dir level
+  config:
+    aliases: [ ]
+    description: gibt dir kontrolle über die config
+  spawnentity:
+    aliases: [ ]
+    description: spawnt ein entity
+  entityrespawn:
+    aliases: [ ]
+    description: toggled das entityrespawning
