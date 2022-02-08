@@ -11,7 +11,7 @@ public class ItemInitialize {
     }
 
     public void NormalItems() {
-        NormalItem.addItem("Coin", Material.EMERALD, true, 0, "", "", "", "");
+        NormalItem.addItem("coin", Material.EMERALD, true, 0, "", "", "", "");
         NormalItem.addItem("Kackhaufen", Material.BROWN_DYE, true, 0, "", "", "", "");
         NormalItem.addItem("Weizen", Material.WHEAT, true, 0, "füttere hiermit Fritzs Tiere", "", "", "");
         NormalItem.addItem("Holz", Material.STICK, true, 0, "gib dieses Stück Holz zu Jeremy", "", "", "");
