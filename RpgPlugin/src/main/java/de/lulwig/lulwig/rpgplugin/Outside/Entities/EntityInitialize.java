@@ -59,11 +59,11 @@ public class EntityInitialize {
         NormalEntity.addEntityLocation("trick", "b", new Location(Bukkit.getServer().getWorld("rpg"), -2266, 72, 1224), "tiere", false, true);
         NormalEntity.addEntityLocation("track", "c", new Location(Bukkit.getServer().getWorld("rpg"), -2269, 72, 1223), "tiere", false, true);
 
-        NormalEntity.addEntityLocation("dieb", "25", new Location(Bukkit.getServer().getWorld("rpg"), -2198, 73, 1120), "strasse", true, false);
-        NormalEntity.addEntityLocation("dieb", "27", new Location(Bukkit.getServer().getWorld("rpg"), -2198, 73, 1126), "strasse", true, false);
-        NormalEntity.addEntityLocation("dieb", "28", new Location(Bukkit.getServer().getWorld("rpg"), -2202, 73, 1122), "strasse", true, false);
-        NormalEntity.addEntityLocation("dieb", "29", new Location(Bukkit.getServer().getWorld("rpg"), -2201, 73, 1125), "strasse", true, false);
-        NormalEntity.addEntityLocation("dieb", "30", new Location(Bukkit.getServer().getWorld("rpg"), -2200, 74, 1119), "strasse", true, false);
+        NormalEntity.addEntityLocation("dieb", "25", new Location(Bukkit.getServer().getWorld("rpg"), -2198, 73, 1120), "strasse", true, true);
+        NormalEntity.addEntityLocation("dieb", "27", new Location(Bukkit.getServer().getWorld("rpg"), -2198, 73, 1126), "strasse", true, true);
+        NormalEntity.addEntityLocation("dieb", "28", new Location(Bukkit.getServer().getWorld("rpg"), -2202, 73, 1122), "strasse", true, true);
+        NormalEntity.addEntityLocation("dieb", "29", new Location(Bukkit.getServer().getWorld("rpg"), -2201, 73, 1125), "strasse", true, true);
+        NormalEntity.addEntityLocation("dieb", "30", new Location(Bukkit.getServer().getWorld("rpg"), -2200, 74, 1119), "strasse", true, true);
 
         NormalEntity.addEntityLocation("spinne", "31", new Location(Bukkit.getServer().getWorld("rpg"), 219, 63, 113), "miene", true, false);
         NormalEntity.addEntityLocation("spinne", "32", new Location(Bukkit.getServer().getWorld("rpg"), 218, 63, 127), "miene", true, false);
